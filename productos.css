@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 1000px;
+    background: linear-gradient(35deg, #feffff 0%,#ddf1f9 41%,#d6dfe2 100%);
+   
+  }
+
+  #contendorPro{
+    font-family:Arial, Helvetica, sans-serif;
+    background: linear-gradient(35deg, #feffff 0%,#ddf1f9 41%,#d6dfe2 100%); 
+   text-align: center;       
+    max-width: 80%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  #headerPri{
+     display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: flex-start;
+   
+  }
+
+  .foroPro{
+    width: 200px;
+    border-radius: 50%;
+       margin-top: 0px;
+       margin-left: 60%;
+    position: absolute;
+  }
+  
+  #contenedor{
+    font-family:Arial, Helvetica, sans-serif;
+    background: linear-gradient(35deg, #feffff 0%,#ddf1f9 41%,#d6dfe2 100%); 
+   text-align: center;       
+    max-width: 80%;
+    
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+  
+  #detalle-productos {
+    display: flex;
+    max-height: 900px;
+    max-width: 1300px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+
+  .detalle-producto {
+    width: 60%;
+     background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    justify-content: space-evenly ;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 20px;
+ 
+  }
+
+.imgSize{
+    width: 100%;
+      }
+
+
+  .imgDetalle {
+    width: 35%;
+     background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 2px;
+    border-radius: 20px;
+    justify-content: space-evenly ;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 20px;
+    border: solid rgb(240, 221, 221);
+    
+      }
+
+      .precioPro{
+        font-size: 60px;
+        font-weight: bold;
+      }
+
+      .descrpip{
+        font-size: 50px;
+      }
+  
+  .detalles-provincia h2 {
+    color: #333;
+    margin-top: 0;
+  }
+  
+  .detalles-provincia p {
+    color: #666;
+  }
+  
+  .descrpDeta{
+    font-size: 40px;
+  }
+  
+
+  .volver {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+
+
+@media screen and (max-width: 1100px) {
+    #detalle-productos {
+        display: flex;
+        max-height: 900px;
+        max-width: 1300px;
+        margin: 10px;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: #ffffff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        flex-wrap: wrap;
+        align-content: space-between;
+        justify-content: center;
+    }
+    .descrpDeta {
+        font-size: 27px;
+    }
+    .precioPro {
+        font-size: 47px;
+        font-weight: bold;
+        margin-bottom: 0px;
+        margin-top: 20px;
+    }
+
+.foroPro {
+    visibility: hidden;
+}
+
+.descrpip {
+    font-size: 44px;
+    margin: 0px;
+}
+.detalle-producto {
+    width: 100%;
+    margin-top: 0px;
+    padding: 0px;
+}
+}

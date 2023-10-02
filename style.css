@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(35deg, #feffff 0%,#ddf1f9 41%,#d6dfe2 100%);
+  }
+
+
+ nav{
+    margin: 0px;
+    background-color: burlywood;
+
+ }
+
+nav ul{
+    margin: 0px;
+    padding: 10px;
+    background-color: burlywood;
+    list-style: none
+
+}
+#contenedor{
+    font-family:Arial, Helvetica, sans-serif;
+    background: linear-gradient(35deg, #feffff 0%,#ddf1f9 41%,#d6dfe2 100%); 
+   text-align: center;       
+    max-width: 80%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+header{
+    background-color: white;
+    border-radius: 10px;
+}
+
+header img{
+    width: 80%;
+    border-radius: 10px;
+}
+
+
+#box{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-evenly;
+   align-items: initial;
+   }
+  
+  .estilo-box {
+   
+   justify-content: space-evenly ;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    border: solid rgb(240, 221, 221);
+    border-radius: 20px;
+      }
+
+  .estilo-box Img{
+    width: 100%;
+    border-radius: 10px;
+  } 
+
+  .parra{
+    margin: 0px;
+  }
+      
+.precio{
+    font-size: 30px;
+   font-weight: bold;
+      margin: 0px;
+}
+  
+ .identiId{
+  /* visibility: hidden; */
+  margin: 20px;
+} 
+
+.estilo-prod {
+    width: 30%;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 15px;
+    box-shadow: 2px 2px 50px rgba(232, 4, 4, 0.43), -2px -2px 18px rgb(172, 173, 172)inset;
+    cursor: pointer;
+    &:hover {
+      background-color: grey;
+      color: #fff;
+      
+    }
+.estilopro{
+        font-size: 20px;        
+   }
+
+   @media screen and (max-width: 800px) {
+    .estilopro{
+         font-size: 15px;
+    }
+    }
+
+   @media screen and (max-width: 600px) {
+        .estilopro{
+             font-size: 10px;
+        }
+}
+
+}
+
+    
+    
+  
+  
