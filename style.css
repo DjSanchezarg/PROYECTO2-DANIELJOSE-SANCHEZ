@@ -1,26 +1,37 @@
 body {
     margin: 0;
     padding: 0;
-    background: linear-gradient(35deg, #feffff 0%,#ddf1f9 41%,#d6dfe2 100%);
+    background: linear-gradient(35deg, #ad6239 0%,#e4bcbc 41%,#e7e0dd 100%);
   }
 
 
  nav{
     margin: 0px;
     background-color: burlywood;
+ }
 
+ .navcon{
+  &:hover {
+    background-color: grey;
+    
+  }
  }
 
 nav ul{
     margin: 0px;
+    font-size: 20px;
     padding: 10px;
     background-color: burlywood;
-    list-style: none
+    list-style: none;
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-evenly;
+
 
 }
 #contenedor{
     font-family:Arial, Helvetica, sans-serif;
-    background: linear-gradient(35deg, #feffff 0%,#ddf1f9 41%,#d6dfe2 100%); 
+    background: linear-gradient(35deg, #ad6239 0%,#e4bcbc 41%,#e7e0dd 100%);
    text-align: center;       
     max-width: 80%;
     align-items: center;
@@ -64,6 +75,7 @@ header img{
 
   .parra{
     margin: 0px;
+    font-size: 20px;
   }
       
 .precio{
@@ -79,6 +91,7 @@ header img{
 
 .estilo-prod {
     width: 30%;
+  
     background-color: #fff;
     padding: 10px;
     border: 1px solid lightgrey;
@@ -91,19 +104,27 @@ header img{
       
     }
 .estilopro{
-        font-size: 20px;        
+        font-size: 25px;        
    }
 
    @media screen and (max-width: 800px) {
     .estilopro{
          font-size: 15px;
     }
+    .parra{
+            font-size: 15px;
+    }
+
     }
 
    @media screen and (max-width: 600px) {
         .estilopro{
              font-size: 10px;
         }
+        .parra{
+          font-size: 10px;
+  }
+
 }
 
 }

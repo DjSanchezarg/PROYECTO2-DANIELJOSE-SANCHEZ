@@ -59,11 +59,20 @@
 },
 {
     "id":"8",
-    "nombre":"Galletaa Avena",
+    "nombre":"Galleta Avena",
     "descripcion":"DatosHarina integral, avena, chips semiamargo, aceite, agua, esencia de vainilla, azúcar mascabo y polvo de hornear",
-    "imagen":"/Book/GalletasAvena.jpg",
+    "imagen":"./Book/GalletasAvena.jpg",
     "detalle":"Galleta de avena, Crocantes!!!!",
     "precio":"$ 1.500"    
+},
+{
+    "id":"9",
+    "nombre":"Pasta Frola Mixta",
+    "descripcion":"De membrillo y batata o también mixta 🔅Ingredientes:AHarina integral, azúcar mascabo, aceite, huevos, esencia de vainilla, polvo de hornear. Medida 24cm",
+    "imagen":"./Book/PastaFrolaMix.jpg",
+    "detalle":"Frola mixta Por si no te decidís chigueguencha!",
+    "precio":"$ 2.000"    
 }
+
 ]
 }
