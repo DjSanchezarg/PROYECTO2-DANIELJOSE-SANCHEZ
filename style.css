@@ -131,7 +131,14 @@ h1{
 
     .estilopro{
              font-size: 10px;
+             margin: 5px
         }
+
+
+              .estilo-box Img {
+            width: 100%;
+              }
+              
         .parra{
           font-size: 10px;
   }
