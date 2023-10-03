@@ -3,7 +3,7 @@
     {
     "id":"1",
     "nombre":"Budin Banana",
-    "descripcion":"DatosBUDIN DE BANANA Y MANZANA 🔅Ingredientes: Harina integral, azúcar mascabo, aceite y huevo.  Hechos con mucho amor💛",
+    "descripcion":"Datos:BUDIN DE BANANA Y MANZANA 🔅Ingredientes: Harina integral, azúcar mascabo, aceite y huevo.  Hechos con mucho amor💛",
     "imagen":"./Book/BudinBana.jpg",
     "detalle":"Budin de Manzana. Delicioso!",
     "precio":"$ 1.330"     
@@ -60,7 +60,7 @@
 {
     "id":"8",
     "nombre":"Galleta Avena",
-    "descripcion":"DatosHarina integral, avena, chips semiamargo, aceite, agua, esencia de vainilla, azúcar mascabo y polvo de hornear",
+    "descripcion":"Datos:Harina integral, avena, chips semiamargo, aceite, agua, esencia de vainilla, azúcar mascabo y polvo de hornear",
     "imagen":"./Book/GalletasAvena.jpg",
     "detalle":"Galleta de avena, Crocantes!!!!",
     "precio":"$ 1.500"    
