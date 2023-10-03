@@ -30,10 +30,10 @@ window.onload= function(){
 });
 
 
-console.log(integrales);
+// console.log(integrales);
 function irDetalle(integrales) {
 window.location.href = `producto.html?id=${integrales.id}`;
-console.log(integrales)
+// console.log(integrales)
 
 
 }

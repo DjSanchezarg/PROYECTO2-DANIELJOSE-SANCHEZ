@@ -13,13 +13,13 @@ body {
  .navcon{
   &:hover {
     background-color: grey;
-    
-  }
+      }
+
  }
 
 nav ul{
     margin: 0px;
-    font-size: 20px;
+    font-size: 15px;
     padding: 10px;
     background-color: burlywood;
     list-style: none;
@@ -50,6 +50,10 @@ header img{
     border-radius: 10px;
 }
 
+h1{
+  font-size: 30px;
+}
+
 
 #box{
     display: flex;
@@ -65,12 +69,12 @@ header img{
     gap: 20px;
     padding: 20px;
     border: solid rgb(240, 221, 221);
-    border-radius: 20px;
+    border-radius: 20px;  
       }
 
   .estilo-box Img{
-    width: 100%;
-    border-radius: 10px;
+    width: 80%;
+    border-radius: 18px;
   } 
 
   .parra{
@@ -104,27 +108,36 @@ header img{
       
     }
 .estilopro{
-        font-size: 25px;        
+        font-size: 28px;  
+        margin: 15px;      
    }
 
    @media screen and (max-width: 800px) {
+
+  
     .estilopro{
          font-size: 15px;
     }
     .parra{
             font-size: 15px;
     }
-
+    .precio {
+      font-size: 20px;
     }
+   
+  }
 
-   @media screen and (max-width: 600px) {
-        .estilopro{
+   @media screen and (max-width: 600px) {   
+
+    .estilopro{
              font-size: 10px;
         }
         .parra{
           font-size: 10px;
   }
-
+  .precio{
+    font-size: 15px;
+  }
 }
 
 }

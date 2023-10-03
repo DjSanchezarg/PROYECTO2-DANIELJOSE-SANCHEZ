@@ -10,7 +10,7 @@ body {
     font-family:Arial, Helvetica, sans-serif;
     background: linear-gradient(35deg, #ad6239 0%,#e4bcbc 41%,#e7e0dd 100%);
    text-align: center;       
-    max-width: 80%;
+    max-width: 75%;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -38,9 +38,8 @@ body {
   #contenedor{
     font-family:Arial, Helvetica, sans-serif;
     background: linear-gradient(35deg, #feffff 0%,#ddf1f9 41%,#d6dfe2 100%); 
-   text-align: center;       
+    text-align: center;       
     max-width: 80%;
-    
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -49,6 +48,7 @@ body {
   
   #detalle-productos {
     display: flex;
+    align-items: center;
     max-height: 900px;
     max-width: 1300px;
     margin: 10px;
@@ -85,7 +85,8 @@ body {
   }
 
 .imgSize{
-    width: 100%;
+    width: 90%;
+    border-radius: 20px;
       }
 
 
@@ -93,7 +94,7 @@ body {
     width: 35%;
      background-color: #fff;
     border: 1px solid #ddd;
-    padding: 20px;
+    padding: 8px;
     margin-top: 2px;
     border-radius: 20px;
     justify-content: space-evenly ;
@@ -122,7 +123,7 @@ body {
   }
   
   .descrpDeta{
-    font-size: 40px;
+    font-size: 35px;
   }
   
 
@@ -153,10 +154,10 @@ body {
         justify-content: center;
     }
     .descrpDeta {
-        font-size: 27px;
+        font-size: 20px;
     }
     .precioPro {
-        font-size: 47px;
+        font-size: 35px;
         font-weight: bold;
         margin-bottom: 0px;
         margin-top: 20px;
