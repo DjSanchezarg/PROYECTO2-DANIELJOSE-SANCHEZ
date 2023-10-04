@@ -2,24 +2,24 @@
 "productos":[
     {
     "id":"1",
-    "nombre":"Budin Banana",
-    "descripcion":"Datos:BUDIN DE BANANA Y MANZANA 🔅Ingredientes: Harina integral, azúcar mascabo, aceite y huevo.  Hechos con mucho amor💛",
+    "nombre":"Budin <BR> Banana",
+    "descripcion":" BUDIN DE BANANA Y MANZANA <BR> 🔅Ingredientes:  Harina integral, azúcar mascabo, aceite y huevo.  Hechos con mucho amor💛",
     "imagen":"./Book/BudinBana.jpg",
-    "detalle":"Budin de Manzana. Delicioso!",
+    "detalle":"Budin de Banana super humedo",
     "precio":"$ 1.330"     
 },
 {
     "id":"2",
-    "nombre":"Budin Manzana",
+    "nombre":"Budin <BR> Manzana",
     "descripcion":"🍌 BUDÍN DE BANANA 🍌 Pedidos con 24hs de anticipación 🧏🏻‍♀️ 🔅Tamaño XL -",
     "imagen":"./Book/BudinManz.jpg",
-    "detalle":"Budin de Banana super humedo",
+    "detalle":"Budin de Manzana. Delicioso!",
     "precio":"$ 1.330"    
 },
 {
     "id":"3",
-    "nombre":"Pepitas Batata",
-    "descripcion":"PARA EL TEAM BATATA 100% de harina integral y con azúcar mascabo. 🔅800g (40 pepas aprox). 🔅400g (20 pepas aprox)",
+    "nombre":"Pepitas <BR> Batata",
+    "descripcion":"PARA EL TEAM BATATA 100% harina integral y con azúcar mascabo. <BR> 🔅800g (40 pepas aprox). <BR> 🔅400g (20 pepas aprox)",
     "imagen":"./Book/PepitasBata.jpg",
     "detalle":"Pepitas de Batata, super frescas",
     "precio":"$ 1.500"    
@@ -27,31 +27,31 @@
 
 {
     "id":"4",
-    "nombre":"Pepitas Membrillo",
-    "descripcion":"PARA EL TEAM MEMBRILLO 100% de harina integral y con azúcar mascabo. 🔅800g (40 pepas aprox). 🔅400g (20 pepas aprox)",
+    "nombre":"Pepitas <BR> Membrillo",
+    "descripcion":"PARA EL TEAM MEMBRILLO 100% harina integral y con azúcar mascabo. <BR> 🔅800g (40 pepas aprox). <BR> 🔅400g (20 pepas aprox)",
     "imagen":"./Book/PepitasMem.jpg",
     "detalle":"Pepitas de Membrillo, Membrillo organico!",
     "precio":"$ 1.500"    
 },
 {
     "id":"5",
-    "nombre":"Torta Ricota",
-    "descripcion":"TORTA DE RICOTA Siii, es 100% integral! 🔅Ingredientes: harina integral, azúcar mascabo, aceite, huevos, polvo de hornear, esencia de vainilla y ricotta baja en grasas y sodio. Medida: 24cm",
+    "nombre":"Torta <BR> Ricota",
+    "descripcion":"TORTA DE RICOTA Siii, <BR> es 100% integral! <BR> 🔅Ingredientes: harina integral, azúcar mascabo, aceite, huevos, polvo de hornear, esencia de vainilla y ricotta baja en grasas y sodio. Medida: 24cm",
     "imagen":"./Book/Ricota.jpg",
     "detalle":"Torta de Ricota, para acompañar tu merienda",
     "precio":"$ 2.500"   
 },
 {
     "id":"6",
-    "nombre":"Pasta Frola",
-    "descripcion":"De membrillo, batata o también mixta 🔅Ingredientes:AHarina integral, azúcar mascabo, aceite, huevos, esencia de vainilla, polvo de hornear. Medida 24cm",
+    "nombre":"Pasta <BR> Frola",
+    "descripcion":"De membrillo, batata o también mixta <BR> 🔅Ingredientes: Harina integral, azúcar mascabo, aceite, huevos, esencia de vainilla, polvo de hornear. Medida 24cm",
     "imagen":"./Book/frola.jpg",
     "detalle":"Pasta Frola, un volcan de membrillo",
     "precio":"$ 2.000"     
 },
 {
     "id":"7",
-    "nombre":"Muffins Banana",
+    "nombre":"Muffins <BR> Banana",
     "descripcion":"Son súper húmedos y ricos 🤤🔅Ingredientes: Harina integral, azúcar mascabo, huevo, aceite de girasol, leche, esencia de vainilla, cacao alcalino, chips de chocolates y bananas. 🔅 6 unidades",
     "imagen":"./Book/muffinsBanan.jpg",
     "detalle":"Muffins de Banana split, una bomba de sabor",
@@ -59,16 +59,16 @@
 },
 {
     "id":"8",
-    "nombre":"Galleta Avena",
-    "descripcion":"Datos:Harina integral, avena, chips semiamargo, aceite, agua, esencia de vainilla, azúcar mascabo y polvo de hornear",
+    "nombre":"Galleta <BR> Avena",
+    "descripcion":"Ingredientes <BR> Harina integral, avena, chips semiamargo, aceite, agua, esencia de vainilla, azúcar mascabo y polvo de hornear",
     "imagen":"./Book/GalletasAvena.jpg",
     "detalle":"Galleta de avena, Crocantes!!!!",
     "precio":"$ 1.500"    
 },
 {
     "id":"9",
-    "nombre":"Pasta Frola Mixta",
-    "descripcion":"De membrillo y batata o también mixta 🔅Ingredientes:AHarina integral, azúcar mascabo, aceite, huevos, esencia de vainilla, polvo de hornear. Medida 24cm",
+    "nombre":"Pasta Frola <BR> Mixta",
+    "descripcion":"De membrillo y batata o también mixta <BR> 🔅Ingredientes: Harina integral, azúcar mascabo, aceite, huevos, esencia de vainilla, polvo de hornear. Medida 24cm",
     "imagen":"./Book/PastaFrolaMix.jpg",
     "detalle":"Frola mixta Por si no te decidís chigueguencha!",
     "precio":"$ 2.000"    
